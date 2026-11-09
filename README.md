@@ -1,6 +1,6 @@
 # Interactive 3D Village with OpenGL
 
-An interactive, real-time **3D village** built in **C++17 and OpenGL 3.3** for a university Computer Graphics group project. The application combines procedurally assembled buildings, textured interiors, animated characters, particle effects, basic ball physics, and an animated day–night cubemap skybox in an explorable scene.
+An interactive, real-time **3D village** built in **C++17 and OpenGL 3.3** project. The application combines procedurally assembled buildings, textured interiors, animated characters, particle effects, basic ball physics, and an animated day–night cubemap skybox in an explorable scene.
 
 ![Overhead view of the village and animated characters](docs/images/village-overview.jpg)
 
@@ -92,8 +92,7 @@ At startup, `main.cpp` creates 20 rooms in a grid with varied heights. Each is p
 │       │   └── effects/          # Particle and lighting implementations
 │       ├── shaders/              # basic / particle / skybox GLSL programs
 │       └── textures/             # Surface textures; day and night cubemaps
-├── includes/                     # Bundled third-party headers
-└── lib/                          # Platform-specific prebuilt libraries
+└── includes/                     # Bundled third-party headers
 ```
 
 `build/` and `bin/` are generated/build-output locations and are excluded by the repository's ignore rules. The compiled application loads shaders and textures via **relative paths**, so the working directory matters.
@@ -154,21 +153,3 @@ bash run.sh src/GL-Project/main.cpp
 - Camera movement and the scene update loop use fixed per-frame increments (including `deltaTime = 0.016f`), so animation/movement speed may vary with actual frame rate.
 - Screenshots are captured with the original `800 × 600` constants; after resizing or entering fullscreen, capture dimensions may not match the framebuffer.
 - The supplied project includes `Demo.mp4` but no automated tests or portable CI configuration. A successful build/run on a fresh environment has **not** been independently verified here.
-
-## Collaboration and credits
-
-Created as a **Group 7** university Computer Graphics project by **Yixin Xia, Manxi Tao, Boxin Su and Junya Yang** (names shown in the recorded demo). The scene and codebase were developed collaboratively.
-
-The project presentation and demo cover environment mapping/skybox work, animation, particles and textured scenes. Where individual contribution breakdown is important for a portfolio or application, it should be confirmed with the team before attributing specific modules to one person.
-
-## Possible improvements
-
-- Replace hard-coded Homebrew paths with portable, target-based CMake dependency discovery.
-- Add actual reflective materials and a shadow-map rendering pass.
-- Connect the lighting classes to an active lighting shader.
-- Use true elapsed time for frame-independent animation and camera movement.
-- Add automated build validation and platform-specific setup instructions.
-
----
-
-*This repository documents a student graphics project and its learning outcomes; it is not a production rendering engine. Third-party libraries and image/texture assets may carry their own licenses—review those rights before redistributing or relicensing the full repository.*
