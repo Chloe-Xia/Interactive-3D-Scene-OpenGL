@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Interactive 3D Village with OpenGL
 
 An interactive, real-time **3D village** built in **C++17 and OpenGL 3.3** for a university Computer Graphics group project. The application combines procedurally assembled buildings, textured interiors, animated characters, particle effects, basic ball physics, and an animated day–night cubemap skybox in an explorable scene.
@@ -172,3 +173,7 @@ The project presentation and demo cover environment mapping/skybox work, animati
 ---
 
 *This repository documents a student graphics project and its learning outcomes; it is not a production rendering engine. Third-party libraries and image/texture assets may carry their own licenses—review those rights before redistributing or relicensing the full repository.*
+=======
+# Interactive-3D-Scene-OpenGL
+An interactive OpenGL 3D environment featuring textured scenes, camera navigation, character animation, environment mapping, and shadow rendering.
+>>>>>>> origin/main
