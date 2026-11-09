@@ -1,0 +1,5 @@
+/Users/allenygy/Library/CloudStorage/OneDrive-Personal/WorkSpace/Cursor-Workspace/CG-Project/build/CMakeFiles/STB_IMAGE.dir
+/Users/allenygy/Library/CloudStorage/OneDrive-Personal/WorkSpace/Cursor-Workspace/CG-Project/build/CMakeFiles/GLAD.dir
+/Users/allenygy/Library/CloudStorage/OneDrive-Personal/WorkSpace/Cursor-Workspace/CG-Project/build/CMakeFiles/GL-Project.dir
+/Users/allenygy/Library/CloudStorage/OneDrive-Personal/WorkSpace/Cursor-Workspace/CG-Project/build/CMakeFiles/edit_cache.dir
+/Users/allenygy/Library/CloudStorage/OneDrive-Personal/WorkSpace/Cursor-Workspace/CG-Project/build/CMakeFiles/rebuild_cache.dir
